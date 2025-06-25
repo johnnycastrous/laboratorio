@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.zone {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+    width: 250px;
+}
+
+.zone h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.priority-1 { color: #e74c3c; }
+.priority-2 { color: #f39c12; }
+.priority-3 { color: #27ae60; }
+
+.due-today {
+    background-color: #ffeaa7;
+}
+
+.icon {
+    margin-right: 8px;
+}
+.highlight { outline: 3px solid #3498db; }
